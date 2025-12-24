@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    height: 100%;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.introduction-container {
+    background-image: url(assets/Photo\ _1_Transparent.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.spacing {
+    height: 20%;
+}
+
+.introduction-words {
+    background-color: white;
+    border-radius: 15px;
+    margin: 0px 120px;
+}
+
+.introduction-button-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+}
+
+.introduction-button {
+    text-decoration: none;
+    color: green;
+    /* RMB TO CHANGE THIS TO THE BAKCGROUND COLOR */
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    transform: translateY(600px);
+}
+
+.introduction-button:hover {
+    transition: 0.5s;
+    filter: invert(100%);
+}
+
+.facilities-image-container {
+    background-image: url(assets/Photo\ 2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.facilities-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.facilities-grid-container div {
+    flex: 1 0 40%;
+    margin: 20px;
+    background-color: skyblue;
+}
+
+.amenities-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.amenities-grid {
+    display: flex;
+    flex: 1 25%;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.amenities-card {
+    border: 1px solid grey;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.amenities-card img {
+    max-width: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.amenities-card p {
+    text-align: center;
+}
+
+.trying-sh {
+    display: flex;
+    flex: 1 25%;
+    gap: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.guest-review-container {
+    text-align: center;
+}
+
+
+
+
+.location-container {
+    padding: 0px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 1000px;
+}
+
+.location-container div {
+    padding: 20px;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(141, 181, 233);
+    color: rgb(0, 0, 0);
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.footer-top div {
+    flex: 1;
+    margin: 0px 15px;
+}
+
+.footer-bottom {
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+}
